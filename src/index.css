@@ -17,9 +17,23 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  height: 50px;
   width: 100%;
   position: relative;
+  margin-top: 50px;
   align-items: center;
+}
+
+.navbar-link {
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  cursor: pointer;
+}
+
+.navbar-link:visited {
+  color:inherit;
 }
 
 .navbar-menu {
