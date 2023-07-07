@@ -1,6 +1,6 @@
 const About: React.FC = ()=> {
   return(
-    <p>animal</p>
+    <p>About</p>
   )
 }
 
