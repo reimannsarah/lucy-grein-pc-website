@@ -11,7 +11,7 @@
 
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: var(--background);
   background-color: #242424;
 
   font-synthesis: none;
@@ -20,7 +20,6 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
 
 
 .navbar-menu {
