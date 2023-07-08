@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Karsten';
+  src: url('../../assets/fonts/Karsten.ttf');
+}
+
+.landing-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-title {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Karsten', sans-serif;
+  font-size: 13vw;
+  color: black;
+  margin: 0;
+  position: absolute;
+  top: 32%;
+  z-index: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+img {
+  width: 100%;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.buttons {
+  float: right;
+}
+
+.buttons button{
+  /* display: flex; */
+  /* flex-direction: column; */
+  background: none;
+  margin: 30px;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
