@@ -3,6 +3,13 @@
   line-height: 1.5;
   font-weight: 400;
 
+  --orange: #fbe5d4;
+  --green: #eaefd7;
+  --blue: #e7e6fc;
+  --purple: #f9e8fb;
+  --background: snow;
+
+
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
@@ -30,6 +37,26 @@
 
 .navbar-link:hover {
   cursor: pointer;
+}
+
+#about-nav:hover {
+  background-color: var(--green);
+  transition-duration: 0.8s;
+}
+
+#services-nav:hover {
+  background-color: var(--blue);
+  transition-duration: 0.8s;
+}
+
+#projects-nav:hover {
+  background-color: var(--orange);
+  transition-duration: 0.8s;
+}
+
+#contact-nav:hover {
+  background-color: var(--purple);
+  transition-duration: 0.8s;
 }
 
 .navbar-link:visited {
