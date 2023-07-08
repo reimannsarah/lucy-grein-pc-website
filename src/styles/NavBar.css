@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'montserrat';
+  src: url('../assets/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  position: relative;
+  margin-top: 50px;
+  align-items: center;
+  font-family: 'montserrat';
+
+}
+
+.navbar-link {
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  cursor: pointer;
+}
+
+#about-nav:hover {
+  background-color: var(--green);
+  transition-duration: 0.8s;
+}
+
+#services-nav:hover {
+  background-color: var(--blue);
+  transition-duration: 0.8s;
+}
+
+#projects-nav:hover {
+  background-color: var(--orange);
+  transition-duration: 0.8s;
+}
+
+#contact-nav:hover {
+  background-color: var(--purple);
+  transition-duration: 0.8s;
+}
+
+.navbar-link:visited {
+  color:inherit;
+}
