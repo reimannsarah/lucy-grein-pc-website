@@ -13,7 +13,7 @@ const LandingPage: React.FC = () => {
       <div className="logo-title">
         <img src={logo} alt="logo" />
         <h1>Lucy Grein</h1>
-        <h2>Parent Consultant</h2>
+        <p>Parent Consultant</p>
       </div>
       <div className="buttons">
         <nav>
