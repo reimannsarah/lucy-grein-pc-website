@@ -29,7 +29,7 @@
 }
 
 #services-nav:hover {
-  background-color: var(--blue);
+  background-color: var(--purple);
   transition-duration: 0.8s;
 }
 
@@ -39,7 +39,7 @@
 }
 
 #contact-nav:hover {
-  background-color: var(--purple);
+  background-color: var(--pink);
   transition-duration: 0.8s;
 }
 
