@@ -14,7 +14,7 @@ interface MainLayoutProps {
 }
 
 const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
-  return(
+  return (
     <React.Fragment>
       <NavBar />
       {children}
@@ -26,18 +26,12 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path='/' Component={LandingPage}></Route>
-        <Route 
-          element={
-            <MainLayout>
-              <Route path="/about" Component={About} />
-              <Route path="/Services" Component={Services} />
-              <Route path="/" Component={Home} />
-              <Route path="/Projects" Component={Projects} />
-              <Route path="/Contact" Component={Contact} />
-            </MainLayout>
-          }
-        />
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/about" element={<MainLayout><About /></MainLayout>} />
+        <Route path="/services" element={<MainLayout><Services /></MainLayout>} />
+        <Route path="/projects" element={<MainLayout><Projects /></MainLayout>} />
+        <Route path="/contact" element={<MainLayout><Contact /></MainLayout>} />
+        <Route path="/home" element={<MainLayout><Home /></MainLayout>} />
       </Routes>
     </Router>
   )
