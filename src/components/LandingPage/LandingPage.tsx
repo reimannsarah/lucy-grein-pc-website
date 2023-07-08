@@ -9,13 +9,13 @@ const LandingPage: React.FC = () => {
   };
 
   return (
-    <div>
-      <div>
+    <div className="landing-page">
+      <div className="logo-title">
         <img src={logo} alt="logo" />
         <h1>Lucy Grein</h1>
         <h2>Parent Consultant</h2>
       </div>
-      <div>
+      <div className="buttons">
         <nav>
             <button onClick={() => handleExploreClick('/journey')}>Take The Journey</button>
             <button onClick={() => handleExploreClick('/home')} >Explore On My Own</button>
