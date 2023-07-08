@@ -1,8 +1,13 @@
 import logo from './../../assets/imgs/LucyLogo.png';
 import './LandingPage.css'
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const LandingPage: React.FC = () => {
+  const navigate = useNavigate();
+  const handleExploreClick = (path: string) => {
+    navigate(path);
+  };
+
   return (
     <div>
       <div>
@@ -12,8 +17,8 @@ const LandingPage: React.FC = () => {
       </div>
       <div>
         <nav>
-            <Link to='/journey'>Take The Journey</Link>
-            <Link to='/'>Explore On My Own</Link>
+            <button onClick={() => handleExploreClick('/journey')}>Take The Journey</button>
+            <button onClick={() => handleExploreClick('/home')} >Explore On My Own</button>
         </nav>
       </div>
     </div>
