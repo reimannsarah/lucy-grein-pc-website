@@ -9,9 +9,27 @@ const Home: React.FC = () => {
         <h3>Hi, I'm Lucy</h3>
         <p>I am a parent Consultant and I'm here to make parenting feel accesible, functional, and intuitive</p>
       </div>
-      <svg  className="box" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
-        <rect width="100" height="100" />
-      </svg>
+      <div className="boxes">
+          <div className="box1">
+            <p>lorem ipsum</p>
+          </div>
+          <div className="box2">
+            <p>lorem ipsum</p>
+          </div>
+        
+        {/* <div className="box1">
+          <p>lorem ipsum</p>
+        </div>
+        <div className="box2">
+          <p>lorem ipsum</p>
+        </div>
+        <div className="box1">
+          <p>lorem ipsum</p>
+        </div>
+        <div className="box2">
+          <p>lorem ipsum</p>
+        </div> */}
+      </div>
 
     </div>
   )

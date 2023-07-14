@@ -3,6 +3,31 @@ img {
   margin: 7%;
 }
 
-.box {
-  color: var(--lightBlue);
+.boxes {
+  display: inline-grid;
+  grid-template-columns: [line1] 215px [line2] 20px [line3] 215px [line4] 20px [line5] 215px;
+  grid-template-rows: [row1-start] 215px [row1-end];
+  
+}
+
+
+.box1 {
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  top: 0;
+  left: 0;
+}
+
+.box2 {
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  z-index: 3;
+  top: 15px;
+  left: 15px;
+}
+
+.box1 p {
+  padding: 20%;
 }
