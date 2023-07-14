@@ -9,44 +9,33 @@ const Home: React.FC = () => {
         <h3>Hi, I'm Lucy</h3>
         <p>I am a parent Consultant and I'm here to make parenting feel accesible, functional, and intuitive</p>
       </div>
-      <div className="box-container">
-
-        <div className="boxes">
-
-          <svg className="box1" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 100 100">
-            <rect width="200" height="200" />
-          </svg>
-
-          <svg className="box2" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 100 100">
-            <rect width="200" height="200" />
-          </svg>
-
+      <div className="boxes">
+        <div className="parent-box">
+          <div className="box1">
+            <p className="title">Bio</p>
+          </div>
+          <div className="box2">
+            <p className="quote">Working with families is my passion</p>
+          </div>
         </div>
 
-        <div className="boxes">
-
-          <svg className="box1" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 100 100">
-            <rect width="200" height="200" />
-          </svg>
-
-          <svg className="box2" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 100 100">
-            <rect width="200" height="200" />
-          </svg>
-
-        </div>
-        
-        <div className="boxes">
-
-          <svg className="box1" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 100 100">
-            <rect width="200" height="200" />
-          </svg>
-
-          <svg className="box2" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 100 100">
-            <rect width="200" height="200" />
-          </svg>
-
+        <div className="parent-box">
+          <div className="box1">
+            <p className="title">Programs</p>
+          </div>
+          <div className="box2">
+            <p className="quote">I believe parents deserve support and collaboration</p>
+          </div>
         </div>
 
+        <div className="parent-box">
+          <div className="box1">
+            <p className="title">Intuition Theory</p>
+          </div>
+          <div className="box2">
+            <p className="quote">Intuition is a complex system of values, perception, and memory</p>
+          </div>
+        </div>
       </div>
 
     </div>

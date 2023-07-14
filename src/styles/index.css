@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'Karsten';
+  src: url('../../assets/fonts/Karsten.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../../assets/fonts/Montserrat-VariableFont_wght.ttf')
+}
+
+@font-face {
+  font-family: 'Palatino';
+  src: url('../../assets/fonts/Palatino.ttf')
+}
+
 :root {
   /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
   line-height: 1.5;
@@ -11,6 +26,9 @@
   --darkBlue: #bed4f8;
   --background: snow;
 
+  --karsten: "Karsten";
+  --montserrat: "Montserrat", monospace;
+  --palatino: "Palatino", monospace;
 
   color-scheme: light dark;
   color: var(--background);

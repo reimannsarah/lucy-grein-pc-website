@@ -1,47 +1,53 @@
 .pic {
-  width: 50%;
+  width: 30%;
   margin: 7%;
 }
 
-.box-container {
-  position: relative;
+.boxes {
+  margin-bottom: 50px;
+  margin-top: 50px;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-bottom: 20px;
 }
 
-.boxes {
-  display: flex;
-  position: relative;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
+.parent-box {
+  display: inline-grid;
+  grid-template-columns: [line1] 15px [line2]200px [line3] 20px;
+  grid-template-rows: [row-line1] 15px [row-line2] 200px;
 }
+
+.parent-box:hover .box1 {
+  transition-duration: 0.3s;
+  z-index: 5;
+}
+
+.quote {
+  padding: 16%;
+  font-size: 16px;
+}
+
+.title {
+  font-family: var(--karsten);
+  padding: 16%;
+  font-size: 25px;
+  font-weight: 300;
+}
+
 
 .box1 {
-  fill: var(--lightBlue);
-  position: absolute;
+  background-color: var(--darkBlue);
+  grid-column-start: line1;
+  grid-row-start: row-line1;
+  height: 200px;
+  width: 200px;
   top: 0;
   left: 0;
 }
 
 .box2 {
-  position: absolute;
-  fill: var(--darkBlue);
-  top: 15px;
-  left: 15px;
-}
-
-.boxes:hover .box1 {
-  z-index: 5;
-}
-
-
-
-
-@media screen and (max-width: 700px) {
-  .box-container {
-    display: none;
-  }
+  background-color: var(--lightBlue);
+  grid-column-start: line2;
+  grid-row-start: row-line2;
+  height: 200px;
+  width: 200px;
+  z-index: 3;
 }
