@@ -1,8 +1,46 @@
-img {
-  width: 30%;
+.pic {
+  width: 50%;
   margin: 7%;
 }
 
-.box {
-  color: var(--lightBlue);
+.box-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.boxes {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.box1 {
+  fill: var(--lightBlue);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.box2 {
+  position: absolute;
+  fill: var(--darkBlue);
+  top: 15px;
+  left: 15px;
+}
+
+.boxes:hover .box1 {
+  z-index: 5;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+  .box-container {
+    display: none;
+  }
 }
