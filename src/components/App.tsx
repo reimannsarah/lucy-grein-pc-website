@@ -8,6 +8,7 @@ import Projects from './Projects';
 import Contact from './Contact';
 import React, { ReactNode } from 'react';
 import LandingPage from './LandingPage/LandingPage';
+import Footer from './Footer/Footer';
 
 interface MainLayoutProps {
   children: ReactNode;
@@ -18,6 +19,7 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
     <React.Fragment>
       <NavBar />
       {children}
+      <Footer />
     </React.Fragment>
   )
 }
