@@ -4,9 +4,12 @@
 }
 
 .boxes {
-  margin-bottom: 50px;
+  margin-bottom: 20%;
   margin-top: 50px;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .parent-box {

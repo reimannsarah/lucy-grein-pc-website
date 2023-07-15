@@ -2,12 +2,13 @@ import LucyBubba from '../../assets/imgs/LucyBubba.png';
 import './Home.css';
 
 const Home: React.FC = () => {
+
   return (
     <div>
       <div>
         <img className="pic" src={LucyBubba} />
         <h3>Hi, I'm Lucy</h3>
-        <p>I am a parent Consultant and I'm here to make parenting feel accesible, functional, and intuitive</p>
+        <p>I am a parent Consultant and I'm here to make parenting feel accessible, functional, and intuitive</p>
       </div>
       <div className="boxes">
         <div className="parent-box">
