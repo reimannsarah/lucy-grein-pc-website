@@ -3,7 +3,7 @@ import './Footer.css'
 const Footer: React.FC = () => {
   return (
     <div className="footer">
-      <p>Footer</p>
+      <p>&#169; Sarah Reimann</p>
     </div>
   )
 }
