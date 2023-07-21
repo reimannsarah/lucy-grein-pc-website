@@ -1,5 +1,6 @@
 import LucyBubba from '../../assets/imgs/LucyBubba.png';
 import './Home.css';
+import { Link } from 'react-router-dom';
 
 const Home: React.FC = () => {
 
@@ -12,27 +13,33 @@ const Home: React.FC = () => {
       </div>
       <div className="boxes">
         <div className="parent-box">
-          <div className="box1">
-            <p className="title">Bio</p>
-          </div>
+          <Link to="/about" className="box1">
+            <div>
+              <p className="box-title">Bio</p>
+            </div>
+          </Link>
           <div className="box2">
             <p className="quote">Working with families is my passion</p>
           </div>
         </div>
 
         <div className="parent-box">
-          <div className="box1">
-            <p className="title">Programs</p>
-          </div>
+          <Link to="/services" className="box1" >
+            <div className="box1">
+              <p className="box-title">Programs</p>
+            </div>
+          </Link>
           <div className="box2">
             <p className="quote">I believe parents deserve support and collaboration</p>
           </div>
         </div>
 
         <div className="parent-box">
-          <div className="box1">
-            <p className="title">Intuition Theory</p>
-          </div>
+          <Link to="/intuition-theory" className="box1" >
+            <div className="box1">
+              <p className="box-title">Intuition Theory</p>
+            </div>
+          </Link>
           <div className="box2">
             <p className="quote">Intuition is a complex system of values, perception, and memory</p>
           </div>

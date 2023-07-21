@@ -28,9 +28,9 @@
   font-size: 16px;
 }
 
-.title {
+.box-title {
   font-family: var(--karsten);
-  padding: 16%;
+  padding: 30%;
   font-size: 25px;
   font-weight: 300;
 }
@@ -44,7 +44,13 @@
   width: 200px;
   top: 0;
   left: 0;
+  text-decoration: none;
 }
+
+.box1 :visited {
+  color: black;
+}
+
 
 .box2 {
   background-color: var(--lightBlue);
