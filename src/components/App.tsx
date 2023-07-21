@@ -1,6 +1,6 @@
 import '../styles/App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import NavBar from './NavBar';
+import NavBar from './NavBar/NavBar';
 import About from './About/About';
 import Services from './Services';
 import Home from './Home/Home';
@@ -9,6 +9,7 @@ import Contact from './Contact';
 import React, { ReactNode } from 'react';
 import LandingPage from './LandingPage/LandingPage';
 import Footer from './Footer/Footer';
+import Bio from './Bio/Bio';
 
 interface MainLayoutProps {
   children: ReactNode;
@@ -30,6 +31,7 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<MainLayout><About /></MainLayout>} />
+        <Route path="/bio" element={<MainLayout><Bio /></MainLayout>} />
         <Route path="/services" element={<MainLayout><Services /></MainLayout>} />
         <Route path="/projects" element={<MainLayout><Projects /></MainLayout>} />
         <Route path="/contact" element={<MainLayout><Contact /></MainLayout>} />
