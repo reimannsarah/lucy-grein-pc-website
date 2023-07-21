@@ -1,0 +1,40 @@
+.intro-pic {
+  display: flex;
+  justify-content: space-around;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.intro-title {
+  color: var(--yellow);
+
+}
+
+.fall-creek-img {
+  border-radius: 50%;
+  width: 40%;
+  height: 40%;
+}
+
+.middle {
+  background-color: var(--cool-purple);
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  display: block;
+  padding: 1px;
+  width: 75%;
+  margin: 30px auto;
+}
+
+.journey {
+  margin-bottom: 10%;
+}
+
+.journey-title {
+  color: var(--yellow);
+}
