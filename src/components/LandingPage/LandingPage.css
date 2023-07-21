@@ -12,7 +12,7 @@
   margin-top: 15%;
   grid-template-columns: [line1] 600px;
   grid-template-rows: [row-line1] 400px [row-line2] 50px [row-line3] 80px;
-  animation: slideIn 1.5s ease-in forwards;
+  animation: logoSlide 1.5s ease-in forwards;
 }
 
 .landing-logo {
@@ -41,7 +41,9 @@
 }
 
 .buttons {
-  float: right;
+  font-size: 35px;
+  animation: buttonSlide 1.5s ease-in forwards;
+  margin-top: 35%;
 }
 
 .buttons button {
@@ -49,12 +51,23 @@
   flex-direction: column;
   background: none;
   margin: 30px;
-  /* grid-column-start: 1;
-  grid-column-end: 5; */
   font-family: var(--montserrat);
+  font-size: 1em;
+  border: none;
 }
 
-@keyframes slideIn {
+.buttons button:hover {
+  cursor: pointer;
+  color: var(--cool-purple);
+  transition-duration: 0.5s;
+  filter: drop-shadow(0 0 2em #646cffaa)
+}
+
+.buttons button:visited {
+  color: inherit;
+}
+
+@keyframes logoSlide {
   0% {
     transform: translateY(-50%);
   }
@@ -67,3 +80,13 @@
     transform: translateX(16%);
   }
 }
+
+@keyframes buttonSlide {
+  from {
+    transform: translateX(50%);
+  }
+  to {
+    transform: translateX(-20%);
+  }
+}
+
