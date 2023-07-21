@@ -11,9 +11,9 @@ const LandingPage: React.FC = () => {
   return (
     <div className="landing-page">
       <div className="logo-title">
-        <img src={logo} alt="logo" />
-        <h1>Lucy Grein</h1>
-        <p>Parent Consultant</p>
+        <img className="landing-logo" src={logo} alt="logo" />
+        <h1 className="lucy-grein">Lucy Grein</h1>
+        <p className="parent-consultant">Parent Consultant</p>
       </div>
       <div className="buttons">
         <nav>
