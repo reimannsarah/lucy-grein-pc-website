@@ -30,13 +30,15 @@
 
 .box-title {
   font-family: var(--karsten);
-  padding: 30%;
   font-size: 25px;
   font-weight: 300;
 }
 
 
 .box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--darkBlue);
   grid-column-start: line1;
   grid-row-start: row-line1;
@@ -47,12 +49,15 @@
   text-decoration: none;
 }
 
-.box1 :visited {
+.box1:visited {
   color: black;
 }
 
 
 .box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--lightBlue);
   grid-column-start: line2;
   grid-row-start: row-line2;
