@@ -13,7 +13,7 @@ const Home: React.FC = () => {
       </div>
       <div className="boxes">
         <div className="parent-box">
-          <Link to="/about" className="box1">
+          <Link to="/bio" className="box1">
             <div>
               <p className="box-title">Bio</p>
             </div>
