@@ -26,21 +26,28 @@
 #about-nav:hover {
   background-color: var(--green);
   transition-duration: 0.8s;
+  padding-top: 100px;
+  padding-bottom: 10px;
 }
 
 #services-nav:hover {
   background-color: var(--purple);
   transition-duration: 0.8s;
+  padding-top: 100px;
+
 }
 
 #projects-nav:hover {
   background-color: var(--orange);
   transition-duration: 0.8s;
+  padding-top: 100px;
 }
 
 #contact-nav:hover {
   background-color: var(--pink);
   transition-duration: 0.8s;
+  padding-top: 100px;
+
 }
 
 .navbar-link:visited {
@@ -56,11 +63,16 @@
   display: none;
   position: absolute;
   background-color: var(--green);
-  min-width: 100px;
+  min-width: 80px;
   z-index: 1;
   animation-name: slideIn;
   animation-duration: 0.5s;
   animation-timing-function: ease;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  color: black;
 }
 
 .dropdown:hover .dropdown-content {
