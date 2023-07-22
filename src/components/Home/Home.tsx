@@ -7,9 +7,9 @@ const Home: React.FC = () => {
   return (
     <div>
       <div>
-        <div className="pic">
+        <div className="top-div">
           <img src={LucyBubba} />
-          <h3>Hi, I'm Lucy</h3>
+          <h1>Hi, I'm Lucy</h1>
           <p>I am a parent Consultant and I'm here to make parenting feel accessible, functional, and intuitive</p>
         </div>
       </div>
