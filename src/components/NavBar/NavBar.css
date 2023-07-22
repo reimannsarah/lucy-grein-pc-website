@@ -9,7 +9,7 @@
   height: 50px;
   width: 100%;
   position: relative;
-  margin-top: 50px;
+  margin-top: 30px;
   align-items: center;
   font-family: 'montserrat';
 
@@ -45,4 +45,35 @@
 
 .navbar-link:visited {
   color:inherit;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--green);
+  min-width: 100px;
+  z-index: 1;
+  animation-name: slideIn;
+  animation-duration: 0.5s;
+  animation-timing-function: ease;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-10px); /* Initially hide the content by moving it up */
+  }
+  to {
+    transform: translateY(0); /* Slide the content down on hover */
+  }
 }
