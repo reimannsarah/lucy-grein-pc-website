@@ -1,6 +1,9 @@
 .intro-pic {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .intro-text {
@@ -28,11 +31,11 @@
   display: block;
   padding: 1px;
   width: 75%;
-  margin: 30px auto;
+  margin: 10% auto;
 }
 
 .journey {
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 
 .journey-title {
