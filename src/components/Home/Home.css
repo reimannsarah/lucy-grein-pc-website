@@ -1,7 +1,15 @@
 .pic {
-  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: 7%;
   margin-top:10%;
+  
+}
+
+.pic img {
+  width: 70%;
 }
 
 .boxes {
