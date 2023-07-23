@@ -1,22 +1,20 @@
-@font-face {
-  font-family: 'montserrat';
-  src: url('../assets/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
-}
-
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   height: 50px;
   width: 100%;
   position: relative;
   margin-top: 30px;
+  margin-bottom: 20%;
   align-items: center;
   font-family: 'montserrat';
+  font-size: 24px;
 
 }
 
 .navbar-link {
   text-decoration: none;
+  color: black;
 }
 
 .navbar-link:hover {
@@ -34,40 +32,68 @@
   background-color: var(--purple);
   transition-duration: 0.8s;
   padding-top: 100px;
-
+  padding-bottom: 10px;
 }
 
 #projects-nav:hover {
   background-color: var(--orange);
   transition-duration: 0.8s;
   padding-top: 100px;
+  padding-bottom: 10px;
 }
 
 #contact-nav:hover {
   background-color: var(--pink);
   transition-duration: 0.8s;
   padding-top: 100px;
-
+  padding-bottom: 10px;
 }
 
 .navbar-link:visited {
-  color:inherit;
+  color: inherit;
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
+  width: 100px;
+  text-align: center;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: var(--green);
   min-width: 80px;
   z-index: 1;
   animation-name: slideIn;
   animation-duration: 0.5s;
   animation-timing-function: ease;
+  padding: 15px;
+}
+
+#about-menu {
+  background-color: var(--green);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#services-menu {
+  background-color: var(--purple);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#projects-menu {
+  background-color: var(--orange);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#contact-menu {
+  background-color: var(--pink);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* padding-top: 100px; */
 }
 
 .dropdown-content a {
@@ -78,14 +104,18 @@
 .dropdown:hover .dropdown-content {
   display: flex;
   flex-direction: column;
-  padding: 5px;
+  top: 100%;
+  transition: top 0.8s ease;
 }
 
 @keyframes slideIn {
   from {
-    transform: translateY(-10px); /* Initially hide the content by moving it up */
+    transform: translateY(-10px);
+    /* Initially hide the content by moving it up */
   }
+
   to {
-    transform: translateY(0); /* Slide the content down on hover */
+    transform: translateY(0);
+    /* Slide the content down on hover */
   }
 }
