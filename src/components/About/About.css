@@ -1,0 +1,10 @@
+.title {
+  color: var(--yellow);
+}
+
+img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15%;
+}
