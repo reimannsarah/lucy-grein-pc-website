@@ -1,8 +1,6 @@
 import logo from '../../assets/imgs/LucyLogo.png';
 import { Link } from 'react-router-dom';
 import './NavBar.css'
-// import { slide as Menu } from 'react-burger-menu';
-// import { useMediaQuery } from 'react-responsive';
 
 function NavBar() {
   return (
