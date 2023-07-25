@@ -22,34 +22,6 @@
   cursor: pointer;
 }
 
-#about-nav:hover {
-  background-color: var(--green);
-  transition-duration: 0.8s;
-  /* padding-top: 100px; */
-  /* padding-bottom: 10px; */
-}
-
-#services-nav:hover {
-  background-color: var(--purple);
-  transition-duration: 0.8s;
-  /* padding-top: 100px; */
-  /* padding-bottom: 10px; */
-}
-
-#projects-nav:hover {
-  background-color: var(--orange);
-  transition-duration: 0.8s;
-  /* padding-top: 100px; */
-  /* padding-bottom: 10px; */
-}
-
-#contact-nav:hover {
-  background-color: var(--pink);
-  transition-duration: 0.8s;
-  /* padding-top: 100px; */
-  /* padding-bottom: 10px; */
-}
-
 .navbar-link:visited {
   color: inherit;
 }
@@ -61,17 +33,10 @@
 }
 
 .dropdown-content {
-  display: none;
   position: absolute;
-  min-width: 80px;
+  min-width: 100px;
   z-index: 1;
-  animation-name: slideIn;
-  animation-duration: 0.5s;
-  animation-timing-function: ease;
   padding: 15px;
-  padding-top: 200px;
-  top: 100px;
-  transition: top 0.5s ease;
 }
 
 #about-menu {
@@ -102,23 +67,28 @@
 .dropdown-content a {
   text-decoration: none;
   color: black;
-}
-
-.dropdown:hover .dropdown-content {
   display: flex;
   flex-direction: column;
-  top: 0;
-  transition: top 0.8s ease;
 }
 
-@keyframes slideIn {
-  from {
-    transform: translateY(-10px);
-    /* Initially hide the content by moving it up */
-  }
+.transition-enter {
+  opacity: 0.05;
+  transform: translate(0, -100px);
+}
 
-  to {
-    transform: translateY(0);
-    /* Slide the content down on hover */
-  }
+.transition-enter-active {
+  opacity: 1;
+  transform: translate(0, 0);
+  transition: all 500ms ease-out;
+}
+
+.transition-exit {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.transition-exit-active {
+  opacity: 0.01;
+  transform: translate(0, 10px);
+  transform: all 500ms ease-out;
 }
