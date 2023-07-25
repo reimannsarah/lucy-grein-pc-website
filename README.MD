@@ -37,3 +37,8 @@
 * 4:00pm learning about React Router
 * 4:45pm implementing react router
 
+#### Tuesday 07/25
+
+* 1:39pm: Been trying to style a dropdown menu banner for the navbar but very unsuccessfully so I am going back to research phase to see what I can find out about creating this. 
+
+
