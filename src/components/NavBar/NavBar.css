@@ -5,7 +5,7 @@
   width: 100%;
   position: relative;
   margin-top: 30px;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
   align-items: center;
   font-family: 'montserrat';
   font-size: 24px;
@@ -15,7 +15,7 @@
 .navbar-link {
   text-decoration: none;
   color: black;
-  z-index: 2;
+  z-index: 4;
 }
 
 .navbar-link:hover {
@@ -69,7 +69,8 @@
   animation-duration: 0.5s;
   animation-timing-function: ease;
   padding: 15px;
-  /* top: 100px; */
+  padding-top: 200px;
+  top: 100px;
   transition: top 0.5s ease;
 }
 
@@ -106,7 +107,7 @@
 .dropdown:hover .dropdown-content {
   display: flex;
   flex-direction: column;
-  /* top: 0; */
+  top: 0;
   transition: top 0.8s ease;
 }
 
