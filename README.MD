@@ -43,4 +43,5 @@
 
 * 1:52pm: watching a video on responsive navbars
 
+* 2:05pm watching a video on react-transition-group
 
