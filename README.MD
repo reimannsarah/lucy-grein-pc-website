@@ -49,3 +49,5 @@
 
 * 3:35pm: more videos, it is not working
 
+* 3:51pm: reading a tutorial on react transition group
+
