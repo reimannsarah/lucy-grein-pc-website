@@ -1,12 +1,24 @@
 import logo from '../../assets/imgs/LucyLogo.png';
 import { Link } from 'react-router-dom';
 import './NavBar.css'
+import { useEffect, useState } from 'react';
 
 function NavBar() {
+  const [activeDropDown, setActiveDropDown] = useState(null)
+
+  function handleMouseEnter(navItemId: string) {
+    setActiveDropDown(navItemId);
+  }
+
+  function handleMouseLeave() {
+    setActiveDropDown(null);
+  }
+
   return (
     <nav className="navbar">
 
-      <div className="dropdown">
+      <div className={`dropdown ${activeDropDown === 'about-nav' ? 'active' : ''}`} onMouseEnter={() => handleMouseEnter('about-nav')}
+      onMouseLeave={handleMouseLeave}>
         <Link to="/about" className="navbar-link" id="about-nav">About</Link>
         <div className="dropdown-content" id="about-menu">
           <Link to="/bio">Bio</Link>
