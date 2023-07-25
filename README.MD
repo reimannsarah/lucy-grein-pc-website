@@ -47,3 +47,5 @@
 
 * 2:38pm: trying to implement react-transition-group
 
+* 3:35pm: more videos, it is not working
+
