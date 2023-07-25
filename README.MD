@@ -45,3 +45,5 @@
 
 * 2:05pm watching a video on react-transition-group
 
+* 2:38pm: trying to implement react-transition-group
+
