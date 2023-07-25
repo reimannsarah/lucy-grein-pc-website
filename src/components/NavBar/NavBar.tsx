@@ -1,12 +1,13 @@
 import logo from '../../assets/imgs/LucyLogo.png';
 import { Link } from 'react-router-dom';
 import './NavBar.css'
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
 
 function NavBar() {
-  const [activeDropDown, setActiveDropDown] = useState(null)
+  const [activeDropDown, setActiveDropDown] = useState<string | null>(null)
 
-  function handleMouseEnter(navItemId: string) {
+  function handleMouseEnter (navItemId: string) {
     setActiveDropDown(navItemId);
   }
 
@@ -17,7 +18,7 @@ function NavBar() {
   return (
     <nav className="navbar">
 
-      <div className={`dropdown ${activeDropDown === 'about-nav' ? 'active' : ''}`} onMouseEnter={() => handleMouseEnter('about-nav')}
+      <div className={`dropdown ${activeDropDown === 'about-nav' ? 'transition' : ''}`} onMouseEnter={() => handleMouseEnter('about-nav')}
       onMouseLeave={handleMouseLeave}>
         <Link to="/about" className="navbar-link" id="about-nav">About</Link>
         <div className="dropdown-content" id="about-menu">
