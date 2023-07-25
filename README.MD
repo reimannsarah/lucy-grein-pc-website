@@ -41,4 +41,6 @@
 
 * 1:39pm: Been trying to style a dropdown menu banner for the navbar but very unsuccessfully so I am going back to research phase to see what I can find out about creating this. 
 
+* 1:52pm: watching a video on responsive navbars
+
 
