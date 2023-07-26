@@ -65,4 +65,6 @@
 
 * 12:52pm: learning about useRef hook
 
+* 1pm: solved the error using createRef
+
 
