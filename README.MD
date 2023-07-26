@@ -57,3 +57,7 @@
 
 * 9:11pm: learning about using transitions to create a fade in effect on page load
 
+#### Wednesday 07/26
+
+* 8:31am: watching a video on typography tips
+
