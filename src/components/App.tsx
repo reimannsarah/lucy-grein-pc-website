@@ -11,7 +11,7 @@ import LandingPage from './LandingPage/LandingPage';
 import Footer from './Footer/Footer';
 import Bio from './Bio/Bio';
 import ScrollToTop from './ScrollToTop.tsx';
-// import { CSSTransition } from 'react-transition-group'; 
+import { TransitionGroup } from 'react-transition-group'; 
 // import { useState } from 'react';
 
 interface MainLayoutProps {
@@ -33,6 +33,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop/>
+      <TransitionGroup>
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<MainLayout><About /></MainLayout>} />
@@ -42,6 +43,7 @@ function App() {
         <Route path="/contact" element={<MainLayout><Contact /></MainLayout>} />
         <Route path="/home" element={<MainLayout><Home /></MainLayout>} />
       </Routes>
+      </TransitionGroup>
     </Router>
   )
 }

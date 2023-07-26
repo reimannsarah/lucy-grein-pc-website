@@ -12,3 +12,12 @@ body {
 .logo:hover {
   filter: drop-shadow(0 0 2em var(--cool-purple));
 }
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transform: opacity 500ms ease-in;
+}
