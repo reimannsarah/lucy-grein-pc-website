@@ -55,3 +55,5 @@
 
 * 5:09pm: hit a wall but thinking I maybe need to style my navbar as a grid so that each option can have access to the top of the viewport 
 
+* 9:11pm: learning about using transitions to create a fade in effect on page load
+
