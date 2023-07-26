@@ -67,4 +67,6 @@
 
 * 1pm: solved the error using createRef **just kidding, now the animation won't play, back to the drawing board**
 
+* 2:09pm: okay, I actually solved it, the error is gone and the animation runs.
+
 
