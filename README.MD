@@ -60,4 +60,5 @@
 #### Wednesday 07/26
 
 * 8:31am: watching a video on typography tips
+* 12:34pm: worked on styling for a while, now trying to resolve error re: CSSTransitions
 
