@@ -9,8 +9,8 @@ const Home: React.FC = () => {
       <div>
         <div className="top-div">
           <img src={LucyBubba} />
-          <h1>Hi, I'm Lucy</h1>
-          <p>I am a parent Consultant and I'm here to make parenting feel accessible, functional, and intuitive</p>
+          <h1 id="title">Hi, I'm Lucy</h1>
+          <p id="intro">I am a parent Consultant and I'm here to make parenting feel accessible, functional, and intuitive</p>
         </div>
       </div>
       <div className="boxes">
