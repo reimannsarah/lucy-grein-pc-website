@@ -65,6 +65,6 @@
 
 * 12:52pm: learning about useRef hook
 
-* 1pm: solved the error using createRef
+* 1pm: solved the error using createRef **just kidding, now the animation won't play, back to the drawing board**
 
 
