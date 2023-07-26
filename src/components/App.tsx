@@ -10,6 +10,9 @@ import React, { ReactNode } from 'react';
 import LandingPage from './LandingPage/LandingPage';
 import Footer from './Footer/Footer';
 import Bio from './Bio/Bio';
+import ScrollToTop from './ScrollToTop.tsx';
+// import { CSSTransition } from 'react-transition-group'; 
+// import { useState } from 'react';
 
 interface MainLayoutProps {
   children: ReactNode;
@@ -26,8 +29,10 @@ const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
 }
 
 function App() {
+
   return (
     <Router>
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<MainLayout><About /></MainLayout>} />
