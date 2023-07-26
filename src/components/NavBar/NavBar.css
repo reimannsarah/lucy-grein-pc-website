@@ -4,7 +4,7 @@
   height: 50px;
   width: 100%;
   position: relative;
-  margin-top: 30px;
+  margin-top: 8%;
   margin-bottom: 10%;
   align-items: center;
   font-family: 'montserrat';
@@ -39,6 +39,13 @@
   padding: 15px;
 }
 
+.dropdown-content a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
 #about-menu {
   background-color: var(--green);
   border-bottom-left-radius: 10px;
@@ -61,15 +68,9 @@
   background-color: var(--pink);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  /* padding-top: 100px; */
 }
 
-.dropdown-content a {
-  text-decoration: none;
-  color: black;
-  display: flex;
-  flex-direction: column;
-}
+
 
 .transition-enter {
   opacity: 0.05;
