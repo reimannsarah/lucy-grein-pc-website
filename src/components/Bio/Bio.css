@@ -1,9 +1,9 @@
 .intro-pic {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  align-items: flex-start;
+  margin: 10%;
+  margin-bottom: 1%;
 }
 
 .intro-text {
@@ -17,11 +17,29 @@
 
 }
 
+.pic-and-circle {
+  display: grid;
+  grid-template-columns: [line1] 15px [line2]400px [line3] 20px;
+  grid-template-rows: [row-line1] 15px [row-line2] 400px;
+}
+
 .fall-creek-img {
+  grid-column-start: line1;
+  grid-column-end: line3;
+  grid-row-start: row-line1;
+  grid-row-end: row;
   border-radius: 50%;
   width: 40%;
   height: 40%;
 }
+
+.circle {
+  background-color: var(--purple);
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
 
 .middle {
   background-color: var(--cool-purple);
@@ -31,11 +49,11 @@
   display: block;
   padding: 1px;
   width: 75%;
-  margin: 10% auto;
+  margin: 2% auto;
 }
 
 .journey {
-  margin-bottom: 15%;
+  margin: 10%;
 }
 
 .journey-title {

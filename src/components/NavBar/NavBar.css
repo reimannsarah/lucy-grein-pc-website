@@ -1,11 +1,10 @@
 .navbar {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   height: 50px;
   width: 100%;
   position: relative;
   margin-top: 8%;
-  margin-bottom: 10%;
   align-items: center;
   font-family: 'montserrat';
   font-size: 24px;
