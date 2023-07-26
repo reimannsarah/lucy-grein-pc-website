@@ -51,5 +51,7 @@
 
 * 3:51pm: reading a tutorial on react transition group
 
-* 4:32pm getting somewhere with react transition group!!!
+* 4:32pm: getting somewhere with react transition group!!!
+
+* 5:09pm: hit a wall but thinking I maybe need to style my navbar as a grid so that each option can have access to the top of the viewport 
 
