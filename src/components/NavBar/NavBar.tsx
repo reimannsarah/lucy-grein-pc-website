@@ -50,10 +50,10 @@ function NavBar() {
 
       <div className='dropdown' onMouseEnter={handleAboutEnter}
         onMouseLeave={handleAboutLeave}>
-        <Link to="/about" className="navbar-link" id="about-nav">About</Link>
+        <Link to="/bio" className="navbar-link" id="about-nav">About</Link>
         <CSSTransition nodeRef={nodeRef} in={activeAboutDropDown} timeout={300} classNames="transition" unmountOnExit>
 
-          <div className="dropdown-content" id="about-menu">
+          <div ref={nodeRef} className="dropdown-content" id="about-menu">
             <Link to="/bio">Bio</Link>
             <Link to="/values">Values</Link>
           </div>
@@ -65,7 +65,7 @@ function NavBar() {
         <Link to="/services" className="navbar-link" id="services-nav">Services</Link>
 
         <CSSTransition nodeRef={nodeRef} in={activeServicesDropDown} timeout={300} classNames="transition" unmountOnExit>
-          <div className="dropdown-content" id="services-menu">
+          <div ref={nodeRef} className="dropdown-content" id="services-menu">
             <Link to="/programs">Programs</Link>
             <Link to="/testimony">Testimoy</Link>
             <Link to="/FAQ">FAQ</Link>
@@ -80,7 +80,7 @@ function NavBar() {
         <Link to="/projects" className="navbar-link" id="projects-nav">Projects</Link>
 
         <CSSTransition nodeRef={nodeRef} in={activeProjectsDropDown} timeout={300} classNames="transition" unmountOnExit>
-          <div className="dropdown-content" id="projects-menu">
+          <div ref={nodeRef} className="dropdown-content" id="projects-menu">
             <Link to="/essays">Essays</Link>
             <Link to="/intuition-theory">Intuition Theory</Link>
           </div>
@@ -92,7 +92,7 @@ function NavBar() {
         <Link to="/contact" className="navbar-link" id="contact-nav">Contact</Link>
 
         <CSSTransition nodeRef={nodeRef} in={activeContactDropDown} timeout={300} classNames="transition" unmountOnExit>
-          <div className="dropdown-content" id="contact-menu">
+          <div ref={nodeRef} className="dropdown-content" id="contact-menu">
             <Link to="/something">Something</Link>
           </div>
         </CSSTransition>
