@@ -20,9 +20,19 @@
   border-radius: 20px;
 }
 
+.blank {
+  height: 30%;
+  width: 100%;
+  border-radius: 20px;
+  background-color: var(--lightBlue);
+  grid-area: 1 / 1 / 2 / 7;
+  margin-top: 18%;
+}
+
 #intro {
   background-color: var(--yellow);
   border-radius: 20px;
+  height: 80%;
   z-index: 2;
   grid-area: 2 / 4 / 3 / 7;
   padding: 15px;
@@ -33,6 +43,7 @@
 }
 
 .top-div img {
+  z-index: 1;
   grid-area: 1 / 1 / 4 / 6;
   border: 20px solid var(--green);
   margin: 0;
@@ -49,8 +60,8 @@
 
 .parent-box {
   display: inline-grid;
-  grid-template-columns: [line1] 15px [line2]200px [line3] 20px;
-  grid-template-rows: [row-line1] 15px [row-line2] 200px;
+  grid-template-columns: [line1] 15px [line2]300px [line3] 20px;
+  grid-template-rows: [row-line1] 15px [row-line2] 300px;
 }
 
 .parent-box:hover .box1 {
@@ -60,12 +71,13 @@
 
 .quote {
   padding: 16%;
-  font-size: 16px;
+  font-size: 25px;
+  font-family: var(--montserrat);
 }
 
 .box-title {
   font-family: var(--karsten);
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 300;
 }
 
@@ -77,8 +89,8 @@
   background-color: var(--darkBlue);
   grid-column-start: line1;
   grid-row-start: row-line1;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   top: 0;
   left: 0;
   text-decoration: none;
@@ -96,7 +108,7 @@
   background-color: var(--lightBlue);
   grid-column-start: line2;
   grid-row-start: row-line2;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   z-index: 3;
 }
