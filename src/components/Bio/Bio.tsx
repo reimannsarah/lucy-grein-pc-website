@@ -1,11 +1,11 @@
 import fallCreek from '../../assets/imgs/lucy-fall-creek.png';
 import './Bio.css';
 import '../../styles/App.css';
-import { CSSTransition } from 'react-transition-group';
+// import { CSSTransition } from 'react-transition-group';
 
 const Bio: React.FC = () => {
   return (
-    <CSSTransition in={true} appear={true} timeout={500} classNames="fade">
+    // <CSSTransition in={true} appear={true} timeout={500} classNames="fade">
       <div>
         <div className="intro-pic">
           <div className="intro-text">
@@ -16,13 +16,10 @@ const Bio: React.FC = () => {
               I am based out of Portland, OR, but have lived in many cities around the world. I spend my time basking in the love of my family and animals, wandering about outdoors, and always listening to, playing, and making music.
             </p>
           </div>
-          <div className="pic-and-circle">
-            <div className="circle"></div>
             <img className="fall-creek-img" src={fallCreek}></img>
-          </div>
         </div>
 
-        <div className="middle"><p>It's taken me a minute to get here</p></div>
+        <div id="middle"><h3>It's taken me a minute to get here</h3></div>
 
         <div className="journey">
           <h2 className="journey-title">The Journey</h2>
@@ -37,12 +34,11 @@ const Bio: React.FC = () => {
           <p className="journey-p">
             The experiences described above have led me to where I am today, working as a parent consultant and developing Intuition Theory. These two projects are deeply aligned. <strong>The services I offer are grounded in my knowledge of children and families as well as the philosophical explorations of IT.</strong> The theory is situated in the intersections of  behavioral science, psychology, and philosophy. IT describes the phenomenological truths that inform our intuitive responses. I am approaching this development of this model from an experiential standpoint -- I actively use IT to assess the behaviors I observe in children and assist families with defining their personal parenting practices. <strong>My goal is to teach parents how to use IT and discover intuitive parenting as an application of the theory.</strong>
           </p>
-          <p className="journey-p">
+          <p className="journey-p" id="last-sentence">
             <strong>I hope you'll join me as the journey continues!</strong>
           </p>
         </div>
       </div>
-    </CSSTransition>
   )
 }
 

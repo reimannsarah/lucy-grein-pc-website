@@ -1,48 +1,45 @@
 .intro-pic {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
   margin: 10%;
-  margin-bottom: 1%;
+  margin-bottom: 0;
+  height: 80%;
+  overflow: hidden;
 }
 
 .intro-text {
   display: flex;
   flex-direction: column;
   width: 50%;
+  /* font-size: 18px;
+  color: rgb(82, 81, 81);
+  line-height: 1.7; */
+  padding-right: 2%;
 }
 
 .intro-title {
+  margin: 0;
   color: var(--yellow);
-
-}
-
-.pic-and-circle {
-  display: grid;
-  grid-template-columns: [line1] 15px [line2]400px [line3] 20px;
-  grid-template-rows: [row-line1] 15px [row-line2] 400px;
+  font-size: 40px;
 }
 
 .fall-creek-img {
-  grid-column-start: line1;
-  grid-column-end: line3;
-  grid-row-start: row-line1;
-  grid-row-end: row;
   border-radius: 50%;
-  width: 40%;
-  height: 40%;
-}
-
-.circle {
-  background-color: var(--purple);
-  border-radius: 50%;
-  height: 200px;
-  width: 200px;
+  border: solid 20px var(--purple);
+  z-index: 4;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  width: 50%;
+  height: 50%;
 }
 
 
-.middle {
+#middle {
   background-color: var(--cool-purple);
+  z-index: 1;
   color: white;
   text-align: center;
   font-size: 24px;
@@ -50,12 +47,21 @@
   padding: 1px;
   width: 75%;
   margin: 2% auto;
+  border-radius: 20px;
 }
 
 .journey {
-  margin: 10%;
+  margin: 10% 0;
+  padding: 1% 15%;
+  background-color: var(--lightBlue);
 }
 
 .journey-title {
-  color: var(--yellow);
+  color: var(--cool-purple);
+  font-size: 40px;
+}
+
+#last-sentence {
+  color: var(--cool-purple);
+  font-size: 24px;
 }
