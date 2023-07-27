@@ -1,7 +1,7 @@
 import '../styles/App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavBar from './NavBar/NavBar';
-import Services from './Services';
+import Programs from './Programs/Programs.tsx';
 import Values from './Values/Values';
 import Home from './Home/Home';
 import Projects from './Projects';
@@ -40,7 +40,7 @@ function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/bio" element={<MainLayout><Bio /></MainLayout>} />
         <Route path="/values" element={<MainLayout><Values /></MainLayout>} />
-        <Route path="/services" element={<MainLayout><Services /></MainLayout>} />
+        <Route path="/programs" element={<MainLayout><Programs /></MainLayout>} />
         <Route path="/projects" element={<MainLayout><Projects /></MainLayout>} />
         <Route path="/contact" element={<MainLayout><Contact /></MainLayout>} />
         <Route path="/home" element={<MainLayout><Home /></MainLayout>} />
