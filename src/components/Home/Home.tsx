@@ -11,7 +11,9 @@ const Home: React.FC = () => {
           <img src={LucyBubba} />
           <h1 id="title">Hi, I'm Lucy</h1>
           <div className="blank"></div>
-          <p id="intro">I am a parent Consultant and I'm here to make parenting feel <strong>accessible</strong>, <strong>functional</strong>, and <strong>intuitive</strong></p>
+          <div id="intro">
+          <p>I am a parent Consultant and I'm here to make parenting feel <strong>accessible</strong>, <strong>functional</strong>, and <strong>intuitive</strong></p>
+          </div>
         </div>
       </div>
       <div className="boxes">

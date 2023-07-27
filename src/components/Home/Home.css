@@ -1,9 +1,10 @@
 .top-div {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  margin: 7%;
-  margin-top:10%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 40%;
+  height: 90%;
+  margin: 10% 7%;
+  margin-bottom: 0;
 }
 
 #title {
@@ -11,43 +12,55 @@
   font-size: 60px;
   font-family: var(--karsten);
   background-color: var(--pink);
-  grid-area: 1 / 3 / 2 / 5;
+  grid-area: 1 / 4 / 1 / 8;
   margin-top: 50px;
-  height: 25%;
+  height: 15%;
   padding: 5% 0;
+  vertical-align: middle;
   text-align: center;
-  align-items: center;
   border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-div img {
+  z-index: 1;
+  width: 100%;
+  grid-area: 1 / 1 / 1 / 5;
+  border: 20px solid var(--green);
+  margin: 0;
 }
 
 .blank {
   height: 30%;
-  width: 100%;
+  width: 140%;
   border-radius: 20px;
   background-color: var(--lightBlue);
-  grid-area: 1 / 1 / 2 / 7;
-  margin-top: 18%;
+  grid-area: 1 / 1 / 1 / 7;
+  margin-top: 20%;
 }
 
 #intro {
   background-color: var(--yellow);
   border-radius: 20px;
-  height: 80%;
+  height: 95%;
   z-index: 2;
-  grid-area: 2 / 4 / 3 / 7;
+  grid-area: 1 / 5 / 2 / 9;
   padding: 15px;
-  font-size: 40px;
-  text-align: center;
+  
   font-family: var(--montserrat);
-  margin: 0;
+  margin: 55% 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.top-div img {
-  z-index: 1;
-  grid-area: 1 / 1 / 4 / 6;
-  border: 20px solid var(--green);
-  margin: 0;
+#intro p {
+  font-size: 40px;
+  text-align: center;
 }
+
 
 .boxes {
   margin-bottom: 20%;
