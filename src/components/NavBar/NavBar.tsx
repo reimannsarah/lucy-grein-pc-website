@@ -67,7 +67,7 @@ function NavBar() {
         <CSSTransition nodeRef={nodeRef} in={activeServicesDropDown} timeout={300} classNames="transition" unmountOnExit>
           <div ref={nodeRef} className="dropdown-content" id="services-menu">
             <Link to="/programs">Programs</Link>
-            <Link to="/testimony">Testimoy</Link>
+            <Link to="/testimony">Testimony</Link>
             <Link to="/FAQ">FAQ</Link>
           </div>
         </CSSTransition>
