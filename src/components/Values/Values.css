@@ -24,7 +24,8 @@
   border-radius: 50%;
   border: 20px solid var(--lightBlue);
 }
-.core-values-title {
+
+.core-phil-title {
   font-family: var(--montserrat);
   text-transform: uppercase;
   background-color: var(--green);
@@ -34,12 +35,12 @@
   text-align: center;
 }
 
-.core-values {
+.core-phil {
   display: flex;
   justify-content: space-evenly;
 }
 
-.core-values div p {
+.core-phil div p {
   font-family: var(--palatino);
   font-size: 30px;
 }

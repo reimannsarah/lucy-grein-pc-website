@@ -19,8 +19,8 @@ function Values() {
 
         <img id="beach" src={beach} alt="lu and bub" />
       </div>
-        <div className="core-values-title"><h1>Core Values</h1></div>
-      <div className="core-values">
+        <div className="core-phil-title"><h1>Core Values</h1></div>
+      <div className="core-phil">
         <div>
           <p>Community</p>
           <p>Resilience</p>
@@ -37,13 +37,18 @@ function Values() {
           <p>Accessibility</p>
         </div>
       </div>
-      <div className="philosophies">
+      <div className="core-phil-title"><h1>Philosophies of Engagement</h1></div>
+      <div className="core-phil">
+        <div>
         <p>Boundaries create freedom</p>
         <p>Trial and error</p>
         <p>Learning happens in discomfort</p>
+        </div>
+        <div>
         <p>Happy, healthy, and safe</p>
         <p>All experiences are internalized</p>
         <p>Centering the self allows for effective assessment</p>
+        </div>
       </div>
     </div>
   )
