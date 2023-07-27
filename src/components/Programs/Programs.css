@@ -39,16 +39,23 @@
   margin: 0 auto;
 }
 
+.program-info {
+  display: block;
+  margin: 0 auto;
+}
+
 .program-info p {
   font-family: var(--palatino);
   margin: 0 12%;
   margin-top: 2%;
+  font-size: 22px;
 }
 
 .emphasis {
   font-family: var(--montserrat);
-  font-size: 24px;
+  font-size: 20px;
   color: var(--cool-purple);
+  margin: 2% 10%;
 }
 
 ul {

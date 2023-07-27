@@ -20,7 +20,7 @@ function Programs() {
         <h2 className="parent-consulting-title">1:1 Parent Consulting</h2>
         <p>$90/session, sliding scale available</p>
         <p>60-min session, virtual or in-person</p>
-        <p className="emphasis">Discover consistent and sustainable parenting practices.</p>
+        <h2 className="emphasis">Discover consistent and sustainable parenting practices.</h2>
         <ul className="list">
           <li>Assess what's working and what's not working in your home.</li>
           <li>Center yourself, build effective tools</li>
@@ -32,7 +32,7 @@ function Programs() {
         <h2 className="parent-consulting-title">4-Week Problem Solving Program</h2>
         <p>$340 &#40;$85/session&#41;</p>
         <p>Four 60-min sessions, virtual or in-person</p>
-        <p className="emphasis">Let's focus on the issue at hand and prepare for what's next.</p>
+        <h2 className="emphasis">Let's focus on the issue at hand and prepare for what's next.</h2>
         <ul>
           <li>Gain problem solving tools to address current struggles</li>
           <li>Practice how to navigate, learn from, and move through your challenges</li>
@@ -45,7 +45,7 @@ function Programs() {
         <p>$900 &#40;$75/session&#41;, sliding scale available</p>
         <p>One 90-min Mutual Understanding session, virtual or in-person</p>
         <p>Eleven 60-min sessions, virtual or in-person</p>
-        <p className="emphasis">Discover consistent and sustainable parenting practices.</p>
+        <h2 className="emphasis">Discover consistent and sustainable parenting practices.</h2>
         <ul>
           <p>Program Breakdown:</p>
           <li>Week 1: Mutual Understanding <em>&#40;preparing the land&#41;</em></li>
@@ -59,7 +59,7 @@ function Programs() {
         <h2 className="parent-consulting-title">Share and Release Venting Session</h2>
         <p>$35/session</p>
         <p>30-min phone call or video chat</p>
-        <p className="emphasis">Take up all the space you need.</p>
+        <h2 className="emphasis">Take up all the space you need.</h2>
         <ul>
           <li>Externally process</li>
           <li>Find collaboration</li>
