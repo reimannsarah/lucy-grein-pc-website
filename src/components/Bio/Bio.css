@@ -21,7 +21,9 @@
 .intro-title {
   margin: 0;
   color: var(--yellow);
-  font-size: 40px;
+  font-size: 30px;
+  font-family: var(--montserrat);
+  text-transform: uppercase;
 }
 
 .fall-creek-img {
@@ -54,11 +56,15 @@
   margin: 10% 0;
   padding: 1% 15%;
   background-color: var(--lightBlue);
+  
 }
 
 .journey-title {
   color: var(--cool-purple);
-  font-size: 40px;
+  font-size: 30px;
+  padding-left: 12px;
+  text-transform: uppercase;
+  font-family: var(--montserrat);
 }
 
 #last-sentence {
