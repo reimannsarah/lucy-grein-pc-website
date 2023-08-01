@@ -12,7 +12,7 @@ jobs:
       - name: Check TypeScript Version
         run: node ../../print-ts-version.js
 
-      - run: npm run build
+      - run: npm ci && npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
