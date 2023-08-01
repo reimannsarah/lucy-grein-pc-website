@@ -36,7 +36,7 @@
   height: 30%;
   width: 140%;
   border-radius: 20px;
-  background-color: var(--yellow);
+  background-color: var(--darkBlue);
   grid-area: 1 / 1 / 1 / 7;
   margin-top: 20%;
 }
