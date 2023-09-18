@@ -1,12 +1,12 @@
 import logo from './../../assets/imgs/LucyLogo.png';
 import './LandingPage.css'
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 
 const LandingPage: React.FC = () => {
-  const navigate = useNavigate();
-  const handleExploreClick = (path: string) => {
-    navigate(path);
-  };
+  // const navigate = useNavigate();
+  // const handleExploreClick = (path: string) => {
+  //   navigate(path);
+  // };
 
   return (
     <div className="landing-page">
