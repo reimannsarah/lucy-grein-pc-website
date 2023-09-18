@@ -5,6 +5,11 @@
   width: 100%;
 }
 
+.coming-soon {
+  margin-top: 10%;
+  font-size: 30px;
+}
+
 
 .logo-title {
   display: grid;
